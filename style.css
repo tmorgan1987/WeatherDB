@@ -1,0 +1,38 @@
+header {
+	margin-bottom: 15px;
+}
+
+h1 {
+	font-weight: bolder;
+	color: white;
+}
+
+.div1h1 {
+	margin-left: 5px;
+	color: black;
+}
+
+input {
+	margin-left: 5px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 325px;
+}
+
+button {
+	margin-left: 5px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+hr {
+	border: 2px solid black;
+	width: 325px;
+}
+
+#bigcard {
+	border: 2px solid black;
+	/* width: 800px; */
+	height: 250px;
+}
