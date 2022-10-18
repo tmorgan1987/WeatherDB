@@ -22,7 +22,7 @@ let cities = [];
 
 const citySearch = () => {
 let searchedCity = searchBar.value;
-fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${searchedCity}&appid=${apiKey}`)
+fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${searchedCity}&appid=${apiKey}`)
 	.then((res)=>{
 		return res.json();
 	})
@@ -31,7 +31,7 @@ fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${searchedCity}&appid=${ap
 		let lat = res[0].lat;
 		let lon = res[0].lon;
 		console.log(lat, lon);
-		fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`)
+		fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`)
 			.then((res)=>{
 				return res.json();
 			})
