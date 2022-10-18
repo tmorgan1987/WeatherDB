@@ -19,8 +19,11 @@ Visit https://tmorgan1987.github.io/WeatherDB/, enter the city you want to see t
 N/A
 
 ## Contact:
-e-mail : tmorgan1987@outlook.com
-github : https://github.com/tmorgan1987
+<a href = "mailto: tmorgan1987@outlook.com">Send Email</a>
+<br>
+<a url="https://github.com/tmorgan1987">Github</a>
 
 ## License
 mit
+
+<img src="./media/wdss.png">
